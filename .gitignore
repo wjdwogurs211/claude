@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# 웹툰: 원본 그림·중간 산출물은 용량이 커서 로컬에만 둔다 (webtoon/HANDOFF.md 참고)
+.omc/
+webtoon/.omc/
+webtoon/output/*
+!webtoon/output/1화_완성본/
+webtoon/__pycache__/
